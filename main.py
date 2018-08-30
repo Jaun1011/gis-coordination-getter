@@ -96,7 +96,7 @@ def getUrlGoogle(adress):
     print adress.strip()
 
     BASE_URL = 'https://maps.googleapis.com/maps/api/geocode/json'
-    API_KEY = "AIzaSyCxN3m8aWG9m3OhLQ1SpvOdgw_oGRd98Y4"
+    API_KEY = "ANY"
 
     url =  BASE_URL + '?address=' + adress + '&key=' + API_KEY
     url =  url.replace(" ", "%20")
